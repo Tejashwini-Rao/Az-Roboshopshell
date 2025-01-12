@@ -22,4 +22,4 @@ systemctl start catalogue
 
 
 dnf install mongodb-mongosh -y
-mongosh --host mongodb-dev.devops77t.online </app/db/master-data.js
+mongosh --host mongodb-dev.devopst77.online </app/db/master-data.js
