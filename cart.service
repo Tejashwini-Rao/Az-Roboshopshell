@@ -2,7 +2,7 @@
 Description = Cart Service
 [Service]
 User=roboshop
-Environment=REDIS_HOST=mongodb-dev.devopst77.online
+Environment=REDIS_HOST=redis-dev.devopst77.online
 Environment=CATALOGUE_HOST=catalogue-dev.devopst77.online
 Environment=CATALOGUE_PORT=8080
 ExecStart=/bin/node /app/server.js
